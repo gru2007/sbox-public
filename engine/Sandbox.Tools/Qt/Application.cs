@@ -37,7 +37,7 @@ public static class Application
 	/// </summary>
 	public static void Spin()
 	{
-		g_pToolFramework2.Spin();
+		MacQtBootstrap.Spin();
 		EditorSplashScreen.Pump();
 	}
 

@@ -255,7 +255,7 @@ internal static class ManagedTools
 		EditorSplashScreen.Singleton = new EditorSplashScreen();
 		EditorSplashScreen.Pump();
 
-		g_pToolFramework2.Spin();
+		MacQtBootstrap.Spin();
 	}
 	/// <summary>
 	/// Attempted to be called every 16ms, even when Qt is blocking

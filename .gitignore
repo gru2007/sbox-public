@@ -1,7 +1,6 @@
 # Ignore all files by default
 *
 !*/
-
 # Git
 !.gitignore
 !.gitattributes
@@ -77,7 +76,7 @@ engine/TestResults/
 /game/**/*.csproj
 /game/**/obj
 /game/**/launchSettings.json
-
+/game/**/*.meta
 #
 # Game debris
 #
